@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  font-style: normal;
+}
+
+@media screen and (min-width: 1800px) {
+  body {
+    /* background: url('./images/apple-1841553.jpg'); */
+    background-size: cover;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.829),
+        rgba(47, 48, 58, 0.829)
+      ),
+      url('./images/apple-1841553.jpg');
+  }
+}
