@@ -1,14 +1,14 @@
 import styled from '@emotion/styled';
 
-import imgWrap from '../../images/apple-1841553.jpg';
+import imgWrap from '../../images/deathNote.jpg';
 
 export const AppWrapper = styled.div`
   width: 100vw;
   height: 100vh;
   background-color: #3a3530;
   background: url(${imgWrap});
-  background-size: cover;
-  background-position: right top;
+  background-size: 100%;
+  background-position: contain;
   overflow-y: scroll;
 
   @media screen and (min-width: 700px) {
